@@ -1,5 +1,5 @@
 {% set name = "rocrate" %}
-{% set version = "0.14.2" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rocrate-{{ version }}.tar.gz
-  sha256: 22263f149b17edeb0bb55cccbcc307917e93f62fe64cfcd14de53bbf1e561d10
+  sha256: 20f0b518dcb1efbf9d25833ec5c24586dee4c39201ed1024e2277a3cd171df3e
 
 build:
   entry_points:
